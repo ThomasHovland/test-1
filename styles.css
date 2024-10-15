@@ -14,7 +14,7 @@
 #main-headline {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 100px;
     padding-left: 30%;
     padding-right: 30%;
     min-width: 400px;
@@ -33,21 +33,28 @@ body {
     margin: 0;
 }
 
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .card {
+    display: flex;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.card-tekst {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    width: 400px;
-    padding-left: 30%;
-    padding-right: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    text-align: center;
+    justify-content: space-between;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.conteiner {
-    padding: 2px 16px;
+.card-link {
+    display: flex;
+    gap: 5px;
 }
